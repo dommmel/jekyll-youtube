@@ -23,7 +23,7 @@ Alternatively install the gem yourself as:
 and put this in your ``_config.yml`` 
 
 ```yaml
-gems: [jekyll-youtube]
+plugins: [jekyll-youtube]
  # This will require each of these gems automatically.
 ```
 
