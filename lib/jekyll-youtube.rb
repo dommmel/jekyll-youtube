@@ -17,7 +17,7 @@ class YouTubeEmbed < Liquid::Tag
       @youtube_id = $5
     end
     
-    tmpl_path = File.join Dir.pwd, "_includes", "youtube.html"
+    tmpl_path = File.join context.registers[:site].in_source_dir(context.registers[:site].config["includes_dir"].to_s), "youtube.html"
     if File.exist?(tmpl_path)
       tmpl = File.read tmpl_path
       site = context.registers[:site]
