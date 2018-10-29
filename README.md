@@ -12,6 +12,7 @@ group :jekyll_plugins do
 end
 ```
 
+
 And then execute:
 
     $ bundle
