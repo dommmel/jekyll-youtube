@@ -1,6 +1,6 @@
 # Jekyll Youtube
 
-This Jekyll pluging provides a tag that takes a Youtube URL and generates a (responsive) html snippet to embed the video into your site.
+This Jekyll plugin provides a tag that takes a Youtube URL and generates a (responsive) html snippet to embed the video into your site.
 
 ## Installation
 
